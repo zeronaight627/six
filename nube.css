@@ -1,0 +1,204 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+.hero {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.nav_hero {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.link--active {
+    border-bottom: 2px solid #fff;
+}
+
+/* Sección principal del héroe */
+.hero_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.hero_textos {
+    max-width: 50%;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.title--active {
+    color: #ff6347;
+}
+
+.copy {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.copy_active {
+    font-weight: bold;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mockup {
+    max-width: 40%;
+}
+
+/* Sección de servicios */
+.services {
+    background-color: #eaeaea;
+    padding: 50px 20px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.copy_section {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card_copy {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sección de testimonios */
+.testimony {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.testimony-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimony_card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.testimony_img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testimony_info {
+    margin-top: 10px;
+}
+
+.testimony_name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.testimony_position {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Sección de descarga */
+.desca {
+    background-color: #eaeaea;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.desca form {
+    display: flex;
+    flex-direction: column;
+}
+
+.desca input[type="file"],
+.desca input[type="text"],
+.desca input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.desca input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.desca input[type="submit"]:hover {
+    background-color: #555;
+}
+
